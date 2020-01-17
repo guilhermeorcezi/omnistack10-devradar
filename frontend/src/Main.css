@@ -1,0 +1,21 @@
+main {
+    flex: 1;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* = 1fr 1fr*/
+    gap: 20px;
+    list-style: none;
+}
+
+main ul .dev-item{
+    border: 0px solid #1C6EA4;
+    border-radius: 34px 0px 0px 0px;  
+}
+
+@media (max-width: 650px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}
