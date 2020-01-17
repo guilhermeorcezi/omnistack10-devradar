@@ -12,6 +12,18 @@
     margin-left: 30px;
 }
 
+#app .img-box{
+    display:grid;
+    justify-items: center;
+    margin-bottom:10px;
+}
+
+
+#app img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
 @media (max-width: 1000px) {
     #app {
         flex-direction: column;

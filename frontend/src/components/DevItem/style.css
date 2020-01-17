@@ -68,7 +68,7 @@ li.dev-item #trash {
     top: -9px;
     font-size: 25px;
     border-radius: 50%;
-    box-shadow: 3px 3px 4px rgba(0,0,0, 0.15);
+    box-shadow: 3px 3px 4px rgba(0,0,0, 0.06);
     border: none;
 }
 
@@ -80,7 +80,7 @@ li.dev-item #pen {
     top: -9px;
     font-size: 25px;
     border-radius: 50%;
-    box-shadow: 3px 3px 4px rgba(0,0,0, 0.15);
+    box-shadow: 3px 3px 4px rgba(0,0,0, 0.06);
     border: none;
     margin-top: 50px;
 }

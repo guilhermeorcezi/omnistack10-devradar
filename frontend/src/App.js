@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import api from './services/api';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './global.css';
 import './App.css';
@@ -17,7 +20,7 @@ function App() {
     const editModeState = useState({editMode:false, dev:{}});
     const [devs, setDevs] = useState([]);
     const [{editMode}] = editModeState;
-  
+
     // Load devs
     useEffect(() => {
       async function loadDevs(){
@@ -38,8 +41,15 @@ function App() {
       }
     }
 
-    async function handleError(){
-
+    function handleError(){
+      toast.error('🚀 Dev já cadastrado!', {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        });
     }
 
     async function handleEditDev(dev, data){
@@ -68,8 +78,12 @@ function App() {
   
     return (
       <div id="app">
+        <ToastContainer/>
         <aside>
-          <strong>{editMode ? 'Editar':'Cadastrar'}</strong>
+        <div className="img-box">
+          <img src={require('./img/gitlogo.png')} alt="Git Logo" hidden={editMode}/>
+        </div>
+          <strong>{editMode ? ' ':'Cadastrar'}</strong>
           <DevForm onAdd={handleAddDev} onEdit={handleEditDev} editModeState={editModeState}/>
         </aside>
         <main>

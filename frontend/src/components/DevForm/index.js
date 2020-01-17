@@ -53,6 +53,10 @@ function DevForm({ onAdd, onEdit, editModeState }){
 
     return (
       <form onSubmit={handleSubmit}>
+        <div className="img-box img-edit">
+          <img src={dev.avatar_url} alt={dev.name === null ? dev.github_username : dev.name} 
+          hidden={!editMode} style={{borderRadius: '50%', minWidth:70, minHeight:70, marginBottom:20}}/>
+        </div>
         <div className="input-block">
           <label htmlFor="github_username">Usuário do GitHub</label>
           <input 
