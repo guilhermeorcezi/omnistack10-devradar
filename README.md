@@ -20,6 +20,10 @@ Utilização de API do Github e artifícios de localização com a utilização 
 - ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
 - 💹 **Node Js** — A web framework for Node Js
 
+<br>
+<h1 align="center"><img src="https://im2.ezgif.com/tmp/ezgif-2-ecda0a4c576c.gif"  alt="Omnistack 10" width="700"></h1>
+<br>
+
 ## Getting started
 
 ### Instalação - Backend
