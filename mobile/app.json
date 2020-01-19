@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "omnistack10",
-    "slug": "mobile",
+    "name": "DevRadar",
+    "slug": "devradar-mobile",
     "privacy": "public",
     "sdkVersion": "36.0.0",
+    "githubUrl": "https://github.com/guilhermeorcezi/omnistack10-devradar",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "android": {
+      "package": "com.devradar.devradar"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +28,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devradar.devradar"
     }
   }
 }
