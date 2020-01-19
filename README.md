@@ -21,6 +21,8 @@ Utilização de API do Github e artifícios de localização com a utilização 
 
 ## Getting started
 
+<h1 align="center"><img align="center" src="./static/web.gif" alt="Omnistack 10 Web" width="700"></img></h1>
+
 ### Instalação - Backend
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
 Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
