@@ -11,7 +11,12 @@
       "web"
     ],
     "android": {
-      "package": "com.devradar.devradar"
+      "package": "com.devradar.devradar",
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyBWiDblq6LQdAiqbkvuduQrEvV-q5XTEMQ"
+          }
+        }
     },
     "version": "1.0.0",
     "orientation": "portrait",
