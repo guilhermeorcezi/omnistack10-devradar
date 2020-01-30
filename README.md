@@ -19,16 +19,27 @@ Utilização de API do Github e artifícios de localização com a utilização 
 - ⚛️ **React Native** — Livraria que provê uma maneira eficiente de criar aplicações nativas para Android e iOS
 - 💹 **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend
 
+## Projeto
+
+O DevRadar é um projeto que visa facilitar a busca por desenvolvedores que residem próximo a você. A aplicação detecta sua localização geográfica a partir do Google Maps e então mostra todos desenvolvedores próximos no raio de 100KM, utilizando a API do GitHub para puxar informações do perfil da pessoa. No Mobile, a aplicação exibe o mapa aonde é possível pesquisar, por tecnologias, os devs nesse raio de distância
+
 ## Getting started
 
 <h1 align="center"><img align="center" src="./static/web.gif" alt="Omnistack 10 Web" width="700"></img></h1>
 
 ### Instalação - Backend
-Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
+Configure o MongoDB e crie uma arquivo .ENV para passar a string de conexão com seu `User:Senha`na propriedade MONGO_URL.  
 Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
 cd backend
 yarn install
+```
+
+```bash
+MONGO_URL: string de conexão
+```
+
+```bash
 yarn dev
 ```
 
