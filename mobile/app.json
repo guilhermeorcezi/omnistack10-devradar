@@ -1,40 +1,34 @@
 {
-  "expo": {
-    "name": "DevRadar",
-    "slug": "devradar-mobile",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "githubUrl": "https://github.com/guilhermeorcezi/omnistack10-devradar",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "android": {
-      "package": "com.devradar.devradar",
-        "config": {
-          "googleMaps": {
-            "apiKey": "AIzaSyBWiDblq6LQdAiqbkvuduQrEvV-q5XTEMQ"
-          }
-        }
-    },
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.devradar.devradar"
-    }
-  }
+	"expo": {
+		"name": "DevRadar",
+		"slug": "devradar-mobile",
+		"privacy": "public",
+		"sdkVersion": "36.0.0",
+		"githubUrl": "https://github.com/guilhermeorcezi/omnistack10-devradar",
+		"platforms": ["ios", "android", "web"],
+		"android": {
+			"package": "com.devradar.devradar",
+			"config": {
+				"googleMaps": {
+					"apiKey": "process.env.MY_KEY"
+				}
+			}
+		},
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.devradar.devradar"
+		}
+	}
 }
