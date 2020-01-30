@@ -28,11 +28,18 @@ O DevRadar é um projeto que visa facilitar a busca por desenvolvedores que resi
 <h1 align="center"><img align="center" src="./static/web.gif" alt="Omnistack 10 Web" width="700"></img></h1>
 
 ### Instalação - Backend
-Configure o MongoDB e crie uma arquivo .ENV para passar a string de conexão com seu `User:Senha`.  
+Configure o MongoDB e crie uma arquivo .ENV para passar a string de conexão com seu `User:Senha`na propriedade MONGO_URL.  
 Para instalar as dependências e executar o **Servidor** (modo desenvolvimento), clone o projeto em seu computador e em seguida execute:
 ```bash
 cd backend
 yarn install
+```
+
+```bash
+MONGO_URL: string de conexão
+```
+
+```bash
 yarn dev
 ```
 
