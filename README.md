@@ -15,9 +15,9 @@ Omnistack 10 - DevRadar
 ## Features
 Utilização de API do Github e artifícios de localização com a utilização de:
 
-- ⚛️ **React Js** — Livraria JavaScript para construção de interfaces
-- ⚛️ **React Native** — Livraria que provê uma maneira eficiente de criar aplicações nativas para Android e iOS
-- 💹 **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend
+- ⚛️ **React Js** — Livraria Javascript para construção de interfaces;
+- ⚛️ **React Native** — Livraria que provê uma maneira eficiente de criar aplicações nativas para Android e iOS;
+- 💹 **Node Js** — Web framework que permite utilizar javascript tanto no frontend quanto no backend;
 
 ## Projeto
 
@@ -28,7 +28,7 @@ O DevRadar é um projeto que visa facilitar a busca por desenvolvedores que resi
 <h1 align="center"><img align="center" src="./static/web.gif" alt="Omnistack 10 Web" width="700"></img></h1>
 
 ### Instalação - Backend
-Dlone o projeto em seu computador. Configure o MongoDB e crie uma arquivo **.env** para passar a string de conexão com seu `User:Senha`na propriedade MONGO_URL.  
+Clone o projeto em seu computador. Configure o MongoDB e crie uma arquivo **.env** para passar a string de conexão com seu `User:Senha`na propriedade MONGO_URL.  
 
 ```bash
 MONGO_URL: string de conexão
